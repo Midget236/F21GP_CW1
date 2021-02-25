@@ -69,7 +69,7 @@ public class enemy : MonoBehaviour
         }else if (pause)
         {
             
-            if (counter == 1000)
+            if (counter == 250)
             {
                 pause = false;
                 counter = 0;
@@ -78,11 +78,10 @@ public class enemy : MonoBehaviour
             {
                 counter += 1;
                 agent.SetDestination(transform.position);
-                Debug.Log(counter);
             }
         }
 
-        //ELSE THEN CHASE PLAYER
+        //ELSE: CHASE PLAYER
         else
         {
              agent.SetDestination(currPlayer.transform.position);

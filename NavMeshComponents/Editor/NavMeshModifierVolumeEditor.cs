@@ -1,4 +1,9 @@
-﻿using UnityEditor.IMGUI.Controls;
+﻿//I DID NOT CREATE THIS FILE.
+//THIS C# FILE IS FROM THE PROJECT:
+//https://github.com/Brackeys/NavMesh-Tutorial
+
+
+using UnityEditor.IMGUI.Controls;
 using UnityEditorInternal;
 using UnityEngine.AI;
 using UnityEngine;

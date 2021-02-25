@@ -3,25 +3,31 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class lose : MonoBehaviour
+public class result : MonoBehaviour
 {
     public player currPlayer;
-    public Text loseText;
+    public Text resultText;
 
     // Start is called before the first frame update
     void Start()
     {
         GameObject obj = GameObject.Find("player");
         currPlayer = obj.GetComponent<player>();
-        loseText = GetComponent<Text>();
+        resultText = GetComponent<Text>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (currPlayer.lives==0)
+        //IF PLAYER WINS
+        if (currPlayer.win)
         {
-            loseText.text = "YOU LOSE";
+            resultText.text = "YOU WIN";
+        }
+        //IF PLAYER LOSES
+        else if (currPlayer.lives == 0)
+        {
+            resultText.text = "YOU LOSE";
         }
     }
 }

@@ -8,7 +8,6 @@ public class player : MonoBehaviour
 
     public int score;
     public int lives;
-    public int level;
     public bool caught;     //FLAG TO RESET POSITION WHEN PLAYER CAUGHT
     public bool win;        //FLAG WHEN PLAYER WINS
     public bool nextLevel;  //FLAG TO SIGNAL WHEN CHANGE TO NEXT LEVEL
@@ -28,7 +27,6 @@ public class player : MonoBehaviour
         //INITIAL VALUES
         lives = 3;
         score = 0;
-        level = 1;
         currStartPos = startPos1;
 
     }
@@ -42,7 +40,6 @@ public class player : MonoBehaviour
             //IF COLLECTED ALL COINS ON LEVEL
             if (nextLevel)     
             {
-                level += 1;
                 //SET NEXT LEVEL POSITION
                 currStartPos = startPos2;
                 transform.position = currStartPos;

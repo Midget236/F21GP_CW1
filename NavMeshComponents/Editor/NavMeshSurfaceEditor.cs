@@ -1,4 +1,9 @@
-﻿using System.Collections.Generic;
+﻿//I DID NOT CREATE THIS FILE.
+//THIS C# FILE IS FROM THE PROJECT:
+//https://github.com/Brackeys/NavMesh-Tutorial
+
+
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using UnityEditor.IMGUI.Controls;

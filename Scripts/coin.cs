@@ -11,6 +11,7 @@ public class coin : MonoBehaviour
 
     //ALL OPERATIONS TO BE DONE ON COLLSION WITH THE PLAYER
 
+
     //CALLED ON COLLISION WITH OTHER OBJECT
     void OnTriggerEnter(Collider obj)
     {

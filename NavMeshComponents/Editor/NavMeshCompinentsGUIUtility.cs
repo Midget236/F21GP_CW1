@@ -1,4 +1,9 @@
-﻿using UnityEngine;
+﻿//I DID NOT CREATE THIS FILE.
+//THIS C# FILE IS FROM THE PROJECT:
+//https://github.com/Brackeys/NavMesh-Tutorial
+
+
+using UnityEngine;
 using UnityEngine.AI;
 
 namespace UnityEditor.AI
